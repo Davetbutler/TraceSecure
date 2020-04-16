@@ -1,0 +1,9 @@
+# TraceSecure
+
+This repository contains a proposal of several new methods for enhanced-privacy in contact tracing applications. Like many others, we wanted to contribute towards the technical foundations necessary to help slow the spread of the SARS-CoV-2 virus.
+
+**NOTE:** We do not endorse this system be used as-is for any current deployment effort. Our aim is simply to contribute to contact tracing system design under a broadened range of trust assumptions.
+
+Whilst there is a need to respond to this pandemic with great  urgency, using the tools we already have available, it is also important to consider the impact these systems may have on our privacy. Unlike the leading, decentralised approaches to contact tracing led by [DP3T](https://github.com/DP-3T/documents), [PACT](https://pact.mit.edu/wp-content/uploads/2020/04/The-PACT-protocol-specification-ver-0.1.pdf) and others including [Apple and Google](https://www.apple.com/covid19/contacttracing), our aim is to consider a wider range of trust assumptions and to develop early protocols and systems accordingly. We believe that our work is an important contribution to the discussion around what data people feel comfortable sharing versus the data that is necessary for reducing the reproduction rate in a viral pandemic.
+
+In the long term, we aim to develop techniques that enable the best of both decentralised and centralised contact tracing systems. In particular we seek to develop protocols which do not reveal to users which of their contacts may have become infected, yet which also protect users from having their interactions known to the government. We also hope that by documenting the spectrum of systems that emerge along the axis between decentralised and centralised, our work will help to provide technical foundations for the debate around privacy and contact tracing.
